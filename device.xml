@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!--remove projects-->
+  <remove-project name="ubuntu-touchCAF/android_build" />
+<!--build-->
+  <project path="build" name="sumitslad/android_build/tree/ubuntu-touch" remote="github" revision="ubuntu-touch" />
 <!--Devices-->
   <project path="device/sony/hayabusa" name="sumitslad/android_device_sony_hayabusa" remote="github" revision="cm-11.0" />
 <!--Kernels-->
